@@ -1,0 +1,40 @@
+
+.card-body-img-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+    animation: pop 0.5s linear 1;
+}
+
+.btn-no-style {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.card-body-img-box .radio-image {
+    max-width: 150px;
+    height: 150px;
+}
+
+.card-body-img-box .radio-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #A3ACBE;
+}
+
+.card-body-img-box button img {
+    width: 35px;
+}
+
+/* Animation  */
+
+@keyframes pop{
+    20%  {transform: scale(0.3);}
+    40%  {transform: scale(0.6);}
+    60%  {transform: scale(1);}
+    80%  {transform: scale(1.1);}
+    100%  {transform: scale(1);}
+  }
